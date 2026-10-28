@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<!--
+  =====================================================================
+  SZABLON WPISU NA BLOGU — BW Adwokaci
+  (Tego pliku NIE wgrywaj na serwer. Służy tylko do kopiowania.)
+
+  1. Skopiuj ten plik w folderze blog/ i nazwij go adresem wpisu:
+     małe litery, bez polskich znaków, słowa oddzielone myślnikami,
+     np.  podzial-majatku-po-rozwodzie.html
+  2. Zamień wszystkie teksty pisane WIELKIMI LITERAMI i oznaczone „← ZMIEŃ”.
+     Najwygodniej: Ctrl+H (Znajdź i zamień) w edytorze, np. dla ADRES-WPISU.
+     Uwaga: TYTUŁ WPISU, OPIS i datę trzeba zmienić także w części <head>
+     i w danych dla Google (blok "application/ld+json").
+  3. Dodaj kafelek na liście wpisów (blog/index.html) i adres do sitemap.xml.
+  Szczegóły: plik INSTRUKCJA-BLOG.md
+  =====================================================================
+-->
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="OPIS WPISU DLA GOOGLE (ok. 140–160 znaków)">
+    <meta name="robots" content="index, follow">
+    <title>TYTUŁ WPISU | Blog BW Adwokaci</title>
+    <link rel="canonical" href="https://bwadwokaci.pl/blog/ADRES-WPISU.html">
+    <meta name="theme-color" content="#0b251a">
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+
+    <meta property="og:type" content="article">
+    <meta property="og:locale" content="pl_PL">
+    <meta property="og:site_name" content="BW Adwokaci">
+    <meta property="og:title" content="TYTUŁ WPISU">
+    <meta property="og:description" content="OPIS WPISU DLA GOOGLE (ok. 140–160 znaków)">
+    <meta property="og:url" content="https://bwadwokaci.pl/blog/ADRES-WPISU.html">
+    <meta property="og:image" content="https://bwadwokaci.pl/img/hanna_joanna.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="stylesheet" href="../style.css">
+    <script src="../cookies.js" defer></script>
+
+    <!-- Dane strukturalne wpisu (dla Google) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "BlogPosting",
+                "headline": "TYTUŁ WPISU",
+                "description": "OPIS WPISU DLA GOOGLE (ok. 140–160 znaków)",
+                "datePublished": "RRRR-MM-DD",
+                "dateModified": "RRRR-MM-DD",
+                "inLanguage": "pl-PL",
+                "mainEntityOfPage": "https://bwadwokaci.pl/blog/ADRES-WPISU.html",
+                "image": "https://bwadwokaci.pl/img/hanna_joanna.jpg",
+                "author": { "@type": "Organization", "@id": "https://bwadwokaci.pl/#kancelaria", "name": "BW Adwokaci" },
+                "publisher": { "@type": "Organization", "@id": "https://bwadwokaci.pl/#kancelaria", "name": "BW Adwokaci" }
+            },
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    { "@type": "ListItem", "position": 1, "name": "Strona główna", "item": "https://bwadwokaci.pl/" },
+                    { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://bwadwokaci.pl/blog/" },
+                    { "@type": "ListItem", "position": 3, "name": "TYTUŁ WPISU", "item": "https://bwadwokaci.pl/blog/ADRES-WPISU.html" }
+                ]
+            }
+        ]
+    }
+    </script>
+</head>
+<body>
+
+    <a href="#main" class="skip-link">Przejdź do treści</a>
+
+    <!-- ======= HEADER ======= -->
+    <header class="top-header" id="top-header">
+        <div class="container header-container">
+            <a href="../index.html" class="logo" aria-label="BW Adwokaci — strona główna">BW | Adwokaci</a>
+            <button class="hamburger" aria-label="Otwórz menu" aria-expanded="false" aria-controls="main-nav">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <nav class="main-nav" id="main-nav" aria-label="Menu główne">
+                <a href="../index.html#o-nas">O&nbsp;nas</a>
+                <a href="../index.html#oferta">Oferta</a>
+                <a href="../index.html#uslugi">Usługi</a>
+                <a href="index.html">Blog</a>
+                <a href="../index.html#kontakt">Kontakt</a>
+            </nav>
+            <div class="header-contact">
+                <a href="tel:+48607164653" class="header-tel">+48 607 164 653</a>
+                <span>ul.&nbsp;Różana 1a/4, 58-100&nbsp;Świdnica</span>
+            </div>
+        </div>
+    </header>
+
+    <main id="main">
+        <article class="legal post container">
+            <nav class="post-breadcrumbs" aria-label="Ścieżka nawigacji">
+                <a href="../index.html">Strona główna</a>
+                <span aria-hidden="true">/</span>
+                <a href="index.html">Blog</a>
+            </nav>
+
+            <header class="legal-head">
+                <p class="post-meta">
+                    <span class="post-category">KATEGORIA</span>
+                    <span aria-hidden="true">·</span>
+                    <time datetime="RRRR-MM-DD">DATA SŁOWNIE, np. 5 listopada 2026</time>
+                </p>
+                <h1>TYTUŁ WPISU</h1>
+                <p class="post-lead">Wstęp — jedno lub dwa zdania zachęcające do czytania. ← ZMIEŃ</p>
+            </header>
+            <p>Pierwszy akapit wpisu. ← ZMIEŃ</p>
+
+            <h2>Śródtytuł sekcji ← ZMIEŃ</h2>
+            <p>Treść sekcji. Każdy akapit w&nbsp;osobnym znaczniku p. ← ZMIEŃ</p>
+            <p>Kolejny akapit. ← ZMIEŃ</p>
+
+            <h2>Śródtytuł z&nbsp;listą ← ZMIEŃ (albo usuń całą sekcję)</h2>
+            <ul>
+                <li>pierwszy punkt listy;</li>
+                <li>drugi punkt listy;</li>
+                <li>trzeci punkt listy.</li>
+            </ul>
+
+            <aside class="post-cta" aria-label="Kontakt z kancelarią">
+                <p class="post-cta-title">Potrzebujesz pomocy w&nbsp;podobnej sprawie?</p>
+                <p class="post-cta-text">Zadzwoń lub napisz — umówimy termin konsultacji w&nbsp;kancelarii w&nbsp;Świdnicy.</p>
+                <div class="post-cta-actions">
+                    <a href="tel:+48607164653" class="post-cta-btn">+48 607 164 653</a>
+                    <a href="../index.html#kontakt" class="post-cta-btn post-cta-btn--ghost">Umów konsultację</a>
+                </div>
+            </aside>
+
+            <p class="legal-note">Artykuł ma charakter wyłącznie informacyjny, przedstawia stan prawny na dzień publikacji i&nbsp;nie stanowi porady prawnej. Każda sprawa wymaga indywidualnej oceny.</p>
+
+            <a href="index.html" class="legal-back">← Wszystkie wpisy</a>
+        </article>
+    </main>
+
+    <!-- ======= FOOTER ======= -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <div class="footer-logo">BW | Adwokaci</div>
+                <p class="small-text">Adwokacka Spółka Partnerska<br>Bokszczanin-Gurgas, Wolak</p>
+                <address class="small-text mt-1">
+                    ul.&nbsp;Różana 1a/4, 58-100&nbsp;Świdnica<br>
+                    NIP: 8842803643 | REGON: 387229139
+                </address>
+            </div>
+            <div class="footer-col">
+                <h3>Hanna Bokszczanin-Gurgas</h3>
+                <p class="small-text">Adwokat</p>
+                <address class="small-text mt-1">
+                    <a href="tel:+48607164653">+48 607 164 653</a><br>
+                    <a href="mailto:biuro@bwadwokaci.pl">biuro@bwadwokaci.pl</a>
+                </address>
+            </div>
+            <div class="footer-col">
+                <h3>Joanna Wolak</h3>
+                <p class="small-text">Adwokat</p>
+                <address class="small-text mt-1">
+                    <a href="tel:+48607164653">+48 607 164 653</a><br>
+                    <a href="mailto:biuro@bwadwokaci.pl">biuro@bwadwokaci.pl</a>
+                </address>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <nav class="footer-nav" aria-label="Nawigacja stopki">
+                <a href="../index.html#o-nas">O&nbsp;nas</a>
+                <a href="../index.html#oferta">Oferta</a>
+                <a href="../index.html#uslugi">Usługi</a>
+                <a href="index.html">Blog</a>
+                <a href="../index.html#kontakt">Kontakt</a>
+                <a href="../polityka-prywatnosci.html">Polityka prywatności</a>
+                <button type="button" class="cookie-settings-btn" data-cookie-settings hidden>Ustawienia cookies</button>
+            </nav>
+            <p class="footer-disclaimer small-text">Treści zamieszczone na stronie mają charakter wyłącznie informacyjny i&nbsp;nie stanowią porady prawnej ani nie tworzą stosunku adwokat–klient.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Hamburger menu
+        const hamburger = document.querySelector('.hamburger');
+        const nav = document.getElementById('main-nav');
+
+        if (hamburger && nav) {
+            const closeMenu = () => {
+                nav.classList.remove('nav-open');
+                hamburger.classList.remove('is-active');
+                hamburger.setAttribute('aria-expanded', 'false');
+                hamburger.setAttribute('aria-label', 'Otwórz menu');
+                document.body.classList.remove('menu-open');
+            };
+
+            hamburger.addEventListener('click', () => {
+                const isOpen = nav.classList.toggle('nav-open');
+                hamburger.classList.toggle('is-active');
+                hamburger.setAttribute('aria-expanded', String(isOpen));
+                hamburger.setAttribute('aria-label', isOpen ? 'Zamknij menu' : 'Otwórz menu');
+                document.body.classList.toggle('menu-open', isOpen);
+            });
+
+            nav.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', closeMenu);
+            });
+
+            // Zamknięcie menu klawiszem Esc
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape' && nav.classList.contains('nav-open')) {
+                    closeMenu();
+                    hamburger.focus();
+                }
+            });
+        }
+
+        // Sticky header shadow
+        const header = document.getElementById('top-header');
+        if (header) {
+            window.addEventListener('scroll', () => {
+                header.classList.toggle('scrolled', window.scrollY > 40);
+            }, { passive: true });
+        }
+    </script>
+
+</body>
+</html>
